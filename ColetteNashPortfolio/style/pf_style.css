@@ -61,6 +61,13 @@ h2{
 	margin-top: 5%;
 	font-family: 'Montserrat', sans-serif;
 }
+h3{
+	color:#008099;
+	text-align: center;
+	/*margin-bottom: 2%;
+	margin-top: 5%;*/
+	font-family: 'Montserrat', sans-serif;
+}
 
 /*Overlay Image Styling*/
 .image img{
