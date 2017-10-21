@@ -86,14 +86,15 @@ h3{
 .image span {
 	z-index: -100;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 10%;
   right: 0;
   height: 100%;
   width: 80%;
 	text-align: center;
 	color: #373737;
-	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
 }
 
 .image span:hover{
