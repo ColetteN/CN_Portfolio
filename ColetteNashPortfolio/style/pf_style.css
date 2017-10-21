@@ -15,6 +15,7 @@ nav.navbar-default.navbar-fixed-top{
 	background-color:#00aacc;
 	text-align:center;
 	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 1.5%;
 }
 
 nav.navbar-default.navbar-fixed-top a{
@@ -58,14 +59,13 @@ h2{
 	color:#008099;
 	text-align: center;
 	margin-bottom: 2%;
-	margin-top: 5%;
+	margin-top: 10%;
 	font-family: 'Montserrat', sans-serif;
 }
 h3{
 	color:#008099;
 	text-align: center;
-	/*margin-bottom: 2%;
-	margin-top: 5%;*/
+	margin-top: 5%;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -126,8 +126,7 @@ article{
 #round{
 	border-radius: 50%;
 	margin-left: 43%;
-	/*margin-top: 2%;*/
-	/*margin-bottom: 2%;*/
+	margin-top: 2%;
 }
 
 #narrow{
@@ -184,3 +183,20 @@ footer {
 
 /*----------------------------------------------------------------------------------------*/
 /*Media Queries Start Here*/
+@media screen and (max-width: 1024px)
+{
+	.image span {
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
+	.image {
+		margin-right: 4%;
+	}
+
+	.image img {
+		margin-bottom: -10%;
+	}
+}
