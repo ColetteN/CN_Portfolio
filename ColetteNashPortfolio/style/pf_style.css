@@ -190,6 +190,43 @@ footer {
 	}
 }
 
+@media screen and (max-width: 1024px)
+{
+	a.btn.btn-social-icon{
+		display:inline-block;
+		margin-bottom: -9%;
+		margin-top: -10%;
+	}
+}
+@media screen and (max-width: 1024px)
+{
+	h2 {
+		margin-top: 35%;
+	}
+}
+@media screen and (max-width: 1024px)
+{
+	h3 {
+		margin-top: 35%;
+	}
+}
+@media screen and (max-width: 1024px)
+{
+	#round{
+		margin-top: 35%;
+		margin-bottom: -30%;
+		margin-left: 30%;
+	}
+}
+
+@media screen and (max-width: 1024px)
+{
+	#narrow{
+	margin-left: 10%;
+	margin-right: 10%;
+	}
+}
+
 @media screen and (max-width: 800px)
 {
 	.image {
