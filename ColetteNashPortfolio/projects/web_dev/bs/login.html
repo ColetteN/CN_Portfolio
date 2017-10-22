@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--Google Fonts link-->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type="text/css">
+<!--Bootstrap link-->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+<!--Bootstrap Font awesome link for social buttons in the footer-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<!--Logo image in the browser tab-->
+<link rel="icon" href="images/booklogo1.png"/>
+<!--My own external stylesheet-->
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<!--scaling the viewport for responsive sizing-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<!--Meta data used for Search Engine Optimisation-->
+<meta name="keywords" content="The Book Store, Main Street, Dungarvan, Co Waterford"/>
+<meta name="description" content="Book Store, Book Shops, Books, Dungarvan, Waterford, Ireland, South East Ireland,"/>
+
+
+<!--Javascripts to boost page speed, faster loading time, also needed for javascript plugin and for the font awesome social media buttons-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<title>Login | My Account</title>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+        <!--The button menu which appears on small screen devices like mobile phones-->
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+ 
+            </button>
+            
+            <!--Navbar with space for a logo image-->
+            <a class= "navbar-brand" href= "index.html">
+                <img src="images/booklogo.png" alt="The Book Store" width="80" height="80"></a>
+                	<ul class="nav navbar-nav navbar-left">
+                       <li><h1>The Book Shelf</h1></li>
+                    </ul>
+        </div>
+        
+			<!--Navbar with images and dropdown-->
+        	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            	<ul class="nav navbar-nav navbar-right">
+                
+                		<li><a href="index.html">Home</a></li>
+                        	<li><a href="about.html">About Us</a></li>
+                            	<li><a href="shopping.html">Shopping</a></li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Books<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                            	<li><a href="all_books.html">All Books</a></li>
+                                                	<li><a href="1916.html">1916</a></li>
+                                                    	<li><a href="bestsellers.html">Bestsellers</a></li>  
+                                                        	<li><a href="fiction.html">Fiction</a></li>
+                                                            	<li><a href="kids_books.html">Kids Books</a></li>                                
+                                             </ul>
+                                        </li>  
+                                                <li class="dropdown">
+                                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret">
+                                                            </span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="contact.html">Contact</a></li>
+                                                                    <li><a href="Colette_Nash_References.pdf">References</a></li>  
+                                                                        <li><a href="wire_frame.jpg">Wireframe</a></li>
+                                                             </ul>
+                                                   </li>
+                                                   
+                                                <li><a href="login.html"><img src="images/cart.png" alt="Shopping Cart" 
+                            title="Shopping Cart" width="60" height="49"> Login | My Account</a></li>
+            	</ul><!--Close the navbar right-->
+        	</div>
+    	</div>
+</nav>
+
+<div class="container">
+	<div class="row">
+    
+    	<div class="col-md-6">
+        	<h3>Account Login Details</h3>
+            	<form method= "post" action= "shopping.html">
+                    <fieldset>
+                    <legend>Login with your Username and Password</legend>
+                    <label for= "username">Username</label><br/>
+                    <input type ="text" size= "30" id="username" autofocus placeholder="Username"/>
+                    
+                    <br/><br/>
+                    
+                    <label for= "password">Password</label><br/>
+                    <input type ="password" size= "30" placeholder="Password"/>
+                    <br/><br/>
+                    <input type="submit" value="Login"/>
+                    <br/>
+                    </fieldset>
+                 </form>
+		</div>
+        
+    	<div class="col-md-6">
+            <form method= "post" action= "home.html">
+            <br/>
+                <fieldset>
+                <legend>Or Create an Account Here</legend>
+                <label for= "firstname">Firstname</label><br/>
+                <input type ="text" name= "firstname" id="firstname" size= "40" placeholder="Firstname"/>
+                <br/>
+                <br/>
+                <label for= "surname">Surname</label><br/>
+                <input type ="text" name= "surname" id="surname" size= "40" placeholder="Surname"/>
+                <br/>
+                <br/>
+                <label for= "email">Email</label><br/>
+                <input type="email" name="email" id="email2"  size="40" required placeholder="Email address"/>
+                <br/>
+                <br/>
+                <label for= "confirm_email">Confirm email address</label><br/>
+                <input type="email" name="confirm_email" id="confirm_email" size="40" placeholder="Confirm email address"/>
+                <br/>
+                <br/>
+                <label for= "password">Password</label><br/>
+                <input type="password" name="password" id="password" size="40" required placeholder="Provide a Password"/>
+                <br/>
+                <br/>
+                <label for= "confirm_password">Confirm Password</label><br/>
+                <input type="password" name="confirm_password" id="confirm_password" size="40" placeholder="Confirm email address"/>
+                <br/>
+                <br/>
+                <input type="submit" value="Sign Up"/>
+                <br/>
+                <br/>
+                </fieldset>
+            </form>           
+		</div>        
+	</div>        
+</div>
+
+<hr/>
+    
+<!--Footer-->
+
+<section class="container">
+	<div class="row">
+    	<article class="col-sm-12">
+           	<a class="btn btn-social-icon btn-twitter"><img src="images/tw.png" alt="Twitter" width="50" height="50"/><span class="fa fa-twitter"></span> Twitter</a>
+            	<a class="btn btn-social-icon btn-facebook"><img src="images/fb.png" alt="Facebook" width="48" height="48"/><span class="fa fa-facebook"></span> Facebook</a>
+            		<a class="btn btn-social-icon btn-google"><img src="images/g+.png" alt="Google+" width="47" height="47"/><span class="fa fa-google"></span> Google+</a>
+     	</article>
+   </div>
+</section>
+
+<br>
+
+<footer class="container-fluid">
+	<div class="row">
+         <div class="col-sm-4">
+                <h4 class="indent">Site Map</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                            <li><a href="shopping.html">Online Shopping</a></li>
+                            	<li><a href="all_books.html">All Books</a></li>
+                                    <li><a href="1916.html">1916 Books</a></li>
+                                        <li><a href="bestsellers.html">Bestselling Books</a></li>  
+                                            <li><a href="fiction.html">Fiction Books</a></li>
+                                                <li><a href="kids_books.html">Kids Books</a></li>                                
+                                                    <li><a href="contact.html">Contact Details</a></li>
+                    </ul>    
+        	</div>
+            
+                <div class="col-sm-4"> 
+                   <h4>Contact Details</h4>
+                        <p>Dungarvan Shopping Centre, Dungarvan, Co Waterford</p>
+                            <p>Tel: 086 256 0609</p>
+                                <p><a href="#" target="_blank">Email: info@thebookshelf.ie</a></p>
+                                    <p><a href="#" target="_blank">Web: www.thebookshelf.ie</a></p>
+                </div> 
+                
+                	<div class="col-sm-4"> 
+                   		<h4>Sign Up to our Newsletter</h4>
+                        	<label for= "newsletter">Please tick if you wish to join our monthly newsletter</label><br>
+        					<input type="checkbox" id="newsletter" name="mailing list" value="yes"/> Yes<br><br>
+                            <label for= "email">Provide your Email Address to Register</label><br/>    
+            				<input type="email" name="email" id="email" size="40" placeholder="Email" required />
+                        
+                	</div>
+	</div>      
+</footer>
+
+<br><br>
+      
+</body>
+</html>

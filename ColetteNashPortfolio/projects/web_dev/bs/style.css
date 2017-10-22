@@ -1,0 +1,367 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*General Styling*/
+body
+{
+	background-color:#E0E0BB;
+	margin-top:120px;     
+}
+
+img
+{
+	max-width:100%; 
+    height: auto; 
+}
+
+/*Bootstraps nav bar*/
+nav.navbar-default.navbar-fixed-top 
+{
+	background-color:#ECECCA;
+	text-align:center;
+	font-family:Merriweather;
+	padding-top:20px;
+	padding-left:80px;
+	padding-right:80px;
+}
+
+nav.navbar-default.navbar-fixed-top a
+{
+	color:#385B38;
+}
+
+nav.navbar-default.navbar-fixed-top a:hover
+{
+	color:#000000;
+}
+
+a
+{
+	color:#8A378A;
+	font-weight:bold;	
+}
+
+a:hover
+{
+	color:#000000;
+}
+
+/*Font Styling*/
+p
+{
+	font-family:Lato, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+}
+
+h1
+{
+	color:#664166;
+	font-family:Merriweather, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size:38px;
+}
+
+h2
+{
+	color:#664166;
+	font-family:Merriweather, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+h3
+{
+	color:#664166;
+	font-family:Merriweather, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+h4
+{
+	color:#3A553A;
+	font-family:Merriweather, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+h5
+{
+	color:#3A553A;
+	font-family:Merriweather, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align:center;
+}
+
+h6
+{
+	color:#3A553A;
+	font-family:Merriweather, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+/*Image Styling*/
+
+section div main img
+{
+	float:left;
+	padding:3px;
+	margin:12px;
+	border:solid #cccccc 2px;
+}
+
+section div main img:hover
+{
+	box-shadow: 3px 3px 3px #cccccc;
+}
+
+header img
+{
+	float:left;
+	padding:3px;
+	margin:12px;
+	border:solid #cccccc 2px;
+}
+
+header img:hover
+{
+	box-shadow: 3px 3px 3px #cccccc;
+}
+
+main div div img
+{
+	border:solid #cccccc 2px;
+}
+
+main div div img:hover
+{
+	box-shadow:3px 3px 3px #cccccc;
+}
+
+div div main img
+{
+	float:left;
+	padding:3px;
+	margin:2px;
+	border:solid #cccccc 2px;
+}
+
+div div main img:hover
+{
+	box-shadow:3px 3px 3px #cccccc;
+}
+
+/*Specific Styling*/
+header div div h2
+{
+	text-align:center;
+}
+
+section div article
+{
+	text-align:center;
+}
+
+footer ul
+{
+	list-style:none;
+}
+
+/*Had to use this as the above would not work
+I want the h4 element to sit flush with the ul element*/
+.indent
+{
+	padding-left:40px;
+}
+
+.leftalign
+{
+	text-align:left;
+}
+
+main/*all book image pages*/
+{
+	text-align:center;
+}
+
+div form
+{
+	border-radius:10px;
+}
+
+input[type] 
+{ 	
+	border-radius:5px;
+}
+
+textarea
+{ 	
+	border-radius:5px;
+}
+
+label
+{
+	color:#3A553A;
+}
+
+legend
+{
+	color:#664166;
+	font-family:Merriweather, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	/*padding-top:25px;*/
+}
+
+div div main ul
+{
+	color:#664166;
+	font-family:Merriweather, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+aside
+{
+	background-color:#ECECCA;
+	padding:10px;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*Media Queries Start Here*/
+
+
+@media (min-width: 767px)
+{
+	body
+	{
+	margin-top:200px;
+	}
+}
+
+@media (min-width: 979px)
+{
+	body
+	{
+	margin-top:150px;
+	}
+}
+
+@media (min-width: 1279px)
+{
+	body
+	{
+	margin-top:120px;
+	}
+}
+
+@media (max-width: 1279px)
+{
+	body
+	{
+	text-align:left;
+	}
+	
+	main
+	{
+	text-align:left;
+	}
+}
+
+@media (max-width: 799px)
+{
+div div main img/*images contact page*/
+	{
+	float:left;
+	padding:2px;
+	margin:25px;
+	}
+}
+
+@media (max-width: 799px)
+ 
+{ 
+	header img /*header images home page*/
+	{
+	padding:2px;
+	margin:25px;
+	float:left;
+	}
+}
+
+@media (max-width: 799px)
+{
+section div main img/*About page images*/
+	{
+	float:left;
+	padding:2px;
+	margin:25px;
+	}
+}
+
+/*Bootstrap nav bar image logo
+Gave trouble during small screen sizes 799px*/
+@media (max-width: 1279px) { 
+    .navbar-brand {
+        padding: 0;
+		text-align:left;        
+    }
+
+    .navbar-brand img {
+        margin-top: 0px;
+        margin-left: 0px;
+		text-align:left;
+    }
+}
+
+@media (max-width: 799px)
+{
+	h1 /*h1 nav brand*/
+	{
+    font-size:24px;
+	text-align:left;        
+    }
+	
+	h2 /*h1 nav brand*/
+	{
+    font-size:22px;
+	text-align:left;        
+    }
+	
+	h3 /*h1 nav brand*/
+	{
+    font-size:20px;
+	text-align:left;        
+    }
+	
+	main h4
+	{
+	text-align:left;
+	}
+		
+	h4 h5
+	{
+	text-align:left;
+	}
+	
+	header div div h5
+	{
+	text-align:left;
+	}
+}
+
+@media (max-width: 799px)
+{
+	header div div h2
+	{
+	text-align:left;
+	}
+}	
+	
+@media (max-width: 799px)
+{
+	section div article
+	{
+	text-align:left;
+	}
+}
+
+@media (max-width: 799px)
+{
+	.indent/*reset the contact footer heading to LHS flush*/
+	{
+	padding-left:0;
+	}
+	
+	footer div div ul/*reset the contact footer div to LHS flush */
+	{
+	padding-left:0;
+	}
+}

@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<!--Bootstrap-->
+<link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!--jQuery Mobile-->
+<!-- Include meta tag to ensure proper rendering and touch zooming -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--Pretty Buttons Stylesheet-->
+<link href="../style/style.css" rel="stylesheet" type="text/css">
+
+<!-- Include the jQuery library -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!--Include the jQuery UI library-->
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css" type="text/css" media="all" />
+
+<!--JavaScript color picker-->
+<script src="../libs/jscolor/jscolor.js"></script>
+<link href="../libs/jscolor/jscolor.min.js" rel="stylesheet" type="text/css">
+
+<!--Pretty Buttons Script-->
+<script src="../script/script.js" type="text/javascript"></script>
+
+<!--Logo image in the browser tab-->
+<link rel="icon" href="../html/images/logo.png">
+
+<title>Regular Button Styler</title>
+
+</head>
+
+<body>
+
+
+<header class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Pretty Buttons</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div id="button_regular"></div>
+            </div>
+
+            <div class="col-sm-6" id="styler">
+                <form id="buttonForm">
+					<label for="text">Button Label</label>
+					<br>
+					<input type="text" id="text" size="20" placeholder="Button Label">
+                </form>
+                <br>
+                	<!-- <div class="name">Button Size</div>
+            		<div class="slider" id="size"></div>
+                    <button id="resetSize">Reset</button>
+                <br> -->
+                	<div class="name">Border</div>
+            		<div class="slider" id="border"></div>
+                    <button id="resetBorder">Reset</button>
+                <br>
+                	<div class="name">Radius</div>
+            		<div class="slider" id="radius"></div>
+                    <button id="resetRadius">Reset</button>
+
+                <!-- <br>
+                	<div class="name">Font Size</div>
+            		<div class="slider" id="font"></div>
+                    <button id="resetFont">Reset</button> -->
+                <br>
+
+
+                <div class="name">Font Style</div>
+                        <select id="fontFamily">
+                        	<option value="Arial">Arial</option>
+        					<option value="Verdana ">Verdana </option>
+        					<option value="Impact ">Impact </option>
+        					<option value="Comic Sans MS">Comic Sans MS</option>
+                        </select>
+                <br><br>
+
+                    <div class="name">Shadow</div>
+            		<div class="slider" id="shadow" ></div>
+                    <button id="resetShadow">Reset</button>
+
+                <br>
+                	<div class="name">Wallpaper</div>
+                        <select id="wallpaper">
+                        	<option value="none">None</option>
+                          	<option value="images/floral1.png">Floral 1</option>
+                          	<option value="images/floral2.png">Floral 2</option>
+                        </select>
+                <br><br>
+					<div class="name">Colour</div>
+               			<input class="jscolor {onFineChange:'update(this)'}" value="ab2567" id="colour">
+                <br>
+            </div>
+
+            	<br>
+            	<button type="button" id="genHtml">Generate HTML</button><br>
+                <textarea id= "areaHtml"></textarea><br>
+
+                <button type="button" id="genCss">Generate CSS</button><br>
+                <textarea id= "areaCss"></textarea>
+                <br>
+
+        </div>
+
+         <button type="button" id="back">Back</button><br>
+    </main>
+
+    <!--Had to put this script here for the jscolor plugin to work-->
+    <script>
+		function update(jscolor) {
+			document.getElementById('button_regular').style.backgroundColor='#' + jscolor;
+		}
+	</script>
+
+    <footer class="container">
+        <div class="row">
+            <div class="col-sm-12">
+    			<footer>
+					<h2>Pretty Buttons Created by Colette Nash</h2>
+				</footer>
+    		</div>
+         </div>
+    </footer>
+
+</body>
+</html>

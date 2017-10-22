@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(images/snowflakes.jpg);
+    margin-top: 125px;
+}
+
+.navbar-fixed-top .nav {
+    padding: 20px 0;
+	text-align:center;
+	color:#000066;
+}
+
+article {
+	text-align:center;
+	padding-bottom:20px;
+}
+
+main {
+	text-align:center;
+	padding-bottom:20px;
+}
+
+footer {
+	text-align:center;
+	text-decoration:none;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#F5F5F5;
+    width: 100%;
+	border-top:1px solid #DCDCDC;
+}
+
+table, th, td {
+	border:1px solid #DCDCDC;
+}
+
+th, td {
+	text-align:left;
+	padding:20px;
+} 
+
+.productimg {
+	padding:20px;
+}
+
+form {
+	padding-left:20px;
+}
+
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css"
+	href="https://www.fachtnaroe.net/standardstyle-2015.css" media="all"/>
+      <title>Learner Record: The Digital Pet Shop</title>
+  </head>
+  <body>
+    
+
+<h1>Learner Record: The Digital Pet Shop Website</h1>
+
+<p>Before I began designing my own website I researched other websites, which would have the look and feel that I was trying to capture. 
+The one I really liked was laurahobson.me, a graduate from LIT, I liked the colours and the feel of her site. 
+I sketched layouts of how I wanted my web pages to look and gathered samples of html and CSS. 
+I used the college course website and the W3schools tutorials, for help in creating my all my html and CSS.</p>
+
+<p>I used the W3schools colour picker to choose colours which would compliment my logo. 
+For the body background I choose a soft pink #ffccf2, for the text fonts a strong burgundy #990033 and for the text and box shadows, 
+I choose a strong candy pink #ff33cc. I made each web page consistent, with the same colours and the menu bar appearing on each page 
+and the contact details at the bottom and finally the footer.</p>
+
+<p>I researched various clip art designs for my digipets. I chose six pets ensuring they were all in keeping with the feel of my site, 
+I sketched each one by hand, scanned the images into Gimp, filled them with colour and used the fuzzy select to cut them from their background.</p> 
+
+<p>Next I created the css style-sheet and the html files. This was the most labour intensive as it took a while to 
+get my pages exactly how I wanted as in layout and styling. It was at this stage that I decided to put some interactive content. 
+I researched how to create animations in Gimp and once I got the hang of that I decided to create a digipets animations page. 
+I also researched how to create scrolling text and the one which I liked the best was the  CSS3. I liked this so much I put scrolling 
+text in most of my pages. I also used the CSS3 to animate some of the pets. With key frames and the css3 I made one of the pets rotate 
+360 and another to slide back and forth when the mouse hovers over.</p>
+
+<p>Creating the Web App: The default action for this was created first. This would be html payments form, which held the customer
+name and address input form. The customer details form had to be validated ensuring each field had been filled out correctly. The name and 
+address fields were validated by ensuring the fields were not left blank. For the email field I used a regex to ensure an @ symbol and a dot 
+were present between text. On the validation pages I added my style sheet and used subroutines for back buttons and to trim leading and trailing spaces.</p>
+
+<p>Once the customer details form was correct, the next stage was the second input form which was the payment details page. This page
+contains the credit card details, the digipet product codes and the price, this also had to be validated. For the credit card payment
+I had to use the Business::CreditCard subroutine which recognises Visa card numbers and I used a regex to validate. For the validation 
+of the card expiry date I used Date::Calc and a regex which ensures the month and year are greater than the present. For the card holders 
+name, the regex ensured a full first and second name are present with a space between. Again I added my stylesheet to the validation page
+and added back buttons also.</p>
+
+<p>The next step was to submit all the validated customer and payment details information to a central database. I applied the code
+supplied, changed the variable names to suit my code and placed this within the last block, after the validation of the second form.
+The subroutine for this I placed at the bottom of my code with the rest of my subroutines. I then created code for a confirmation of payment email,
+this sends the customer an email confirming payment has been received.</p>
+
+<p>Finally, I created a contact us direct PHP form that would send an email with the customers request message. 
+I researched how to create the PHP form on the Internet. I created a simple form and used my college web mail where the Pet Shop requests can go. 
+I had to place the php code within the body of my html code, as the php document I had originally created, would not validate as the W3schools validation 
+service did not support php.</p>
+
+<p>I am very pleased with my website and this particular project has inspired me to apply to LIT college to study their Creative Multimedia course. 
+I have really enjoyed this project and loved researching and learning new skills.</p>
+
+<h2>Target Audience:</h2>
+<p>The target audience for my website was children aged between 7 and 15 years. 
+The colours and the pets are all meant to  give a cartoon type feel to the whole site. 
+The pinks and dark reds are not to just attract girls but it also gives that bright colourful happy feel. 
+The language content is plain and simple for  both children and young adults to understand. 
+I used a lot of interactive pets to keep children entertained. 
+I have pets which rotate 360 and slide across the screen when you hover your mouse over them. 
+I have also used scrolling text and images to give the website an interactive feel. 
+I also created an animation page with all the pets having some form of animation in keeping with their personalities.</p>
+
+<h2>Critical Review:<h2>
+<p>I am very pleased with my website it has the look and feel which I was trying to capture. 
+But if I was more experienced I would have added JavaScript events into the website. 
+I would have liked an interactive menu bar and sliding side bars to give it a much more modern feel. 
+I did however manage to create something similar with CSS3. I created rows of scrolling text and images to slide onto the screen from the right. 
+Animated the digipets when you hover your mouse over them they rotate 360 or glide left and right. 
+I used the CSS3 to create the effects I felt the website needed. Overall I am pleased with the result but would like it to be much more interactive.</p>
+
+<br>
+<br>
+<h3>Colette Nash</h3>
+<h3>06/02/2015</h3>
+<br>
+</body>
+</html>

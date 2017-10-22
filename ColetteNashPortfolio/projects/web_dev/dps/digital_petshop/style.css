@@ -1,0 +1,410 @@
+body {
+/*Spacing between the lines, neater and easier to read */
+    line-height: 2.0;
+/*Indenting the webpage */
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+/*Body styling*/
+body {
+  background-color: #FFCCF2;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #990033;
+  font-weight: bold;
+
+}
+
+/*h1 Styling*/
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 26pt;
+    color: #990033;
+    text-align:center ;
+    /*text-shadow: 5px 5px 5px #ff33cc;*/
+}
+
+/*h2 Styling*/
+h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18pt;
+    color: #990033;
+    /*text-shadow: 3px 3px 3px #ff33cc;*/
+}
+
+/*CSS3 Scrolling Text Animation*/
+h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14pt;
+    color: #990033;
+    /*text-shadow: 3px 3px 3px #ff33cc;*/
+    text-align:center;
+    animation-duration:4s;
+    animation-name: slidein;
+    animation-direction: alternate;
+}
+
+/*CSS3 Scrolling Text Animation*/
+h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14pt;
+    color: #990033;
+    /*text-shadow: 3px 3px 3px #ff33cc;*/
+    text-align:center;
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-direction: alternate;
+}
+
+/*CSS3 Scrolling Text Animation*/
+h5 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11pt;
+    color: #990033;
+    text-shadow: none;
+    text-align:center;
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-direction: alternate;
+}
+
+/*CSS3 Scrolling Text Animation*/
+h6 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    font-weight:bold;
+    color: #990033;
+    /*text-shadow:3px 3px 3px #ff33cc;*/
+    text-align:center;
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-direction: alternate;
+}
+
+/*Paragraph styling*/
+p {
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 12pt;
+   color: #990033;
+}
+
+/*An alternate text type used on the Contact Us Form*/
+#text {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14pt;
+  color: #990033;
+  font-weight:bold;
+  text-shadow: none;
+  text-align:center;
+  /*text-shadow:3px 3px 3px #ff33cc;*/
+}
+
+/*Links styling*/
+a {
+   font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    color:#ff33cc ;
+}
+/*Table styling*/
+td {
+  vertical-align:top;
+}
+
+/*When you hover over a link*/
+a:hover {
+/*When mouse hovers over link, change colour */
+  color: #990033;
+}
+
+/*The contact details at the bottom of the pages*/
+#contactinfo {
+    height: auto;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    clear:both;
+}
+
+#contactinfo ul {
+/*To Get rid of the bullet points */
+    text-decoration: none;
+}
+
+#contactinfo li {
+/*Contact details appear horizontically rather than vertically  */
+    display: inline;
+    padding: 0px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #990033;
+    text-decoration:none;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+}
+/*My Menu Bar*/
+#menu {
+    width:100%;
+    background-color:#990033;
+    text-align: center;
+/*Gives the navigation bar the rounded edges */
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /*box-shadow: 10px 10px 5px #ff33cc;*/
+}
+
+/*How they are displayed in the menu bar*/
+#menu li {
+    padding-left:2%;
+    padding-right:2%;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    display:inline;
+}
+
+#menu a {
+/*Links in the menu bar */
+  text-decoration: none;
+  color:#cfcfcf ;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#menu a:hover {
+/*When mouse hovers over link, it changes colour */
+  color: #ff33cc;
+}
+
+#header {
+/*Where the logo and logotext is placed */
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+/*Setting the size and position of the logo */
+  height: 120px;
+  width:120px;
+  margin: auto;
+  width: auto;
+}
+
+#logotext {
+/*Setting size and position of the logo text*/
+  height:70px;
+  position:relative;
+  padding-left:10px;
+  margin: auto;
+  width: auto;
+}
+
+#main  {
+/* The main content of the page*/
+  padding-top: 1px;
+  padding-bottom: 20px;
+  margin-left:auto;
+  margin-right: auto;
+  width:100%;
+  font-weight: bold;
+}
+
+/*CSS3 Animation*/
+/*Positioning the Dog on the page*/
+.dog {
+    top: 20%;
+    left: 82%;
+}
+
+/*Spinning the Dog when mouse hovers over*/
+#axisdog:hover .rotate360ccw {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+}
+
+.object {
+    position: absolute;
+}
+
+/*Positioning the Cat on the page*/
+.cat {
+    top: 100%;
+    left: 70%;
+}
+
+/*Animating the cat to slide when mouse hovers over*/
+/*So animation will work across most Browsers*/
+#axiscat:hover .move-right{
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+    -o-transform: translate(350px,0); /** Opera **/
+    -moz-transform: translate(350px,0); /** Firefox **/
+}
+
+/*Keyframes for the animated cat*/
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+/*So animation will work across most Browsers*/
+.object {
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
+}
+
+/*Positioning the Sliding green bird*/
+.birdslide {
+    left:68%;
+    top:50%;
+}
+
+/*When mouse hovered over bird will slide in from the right*/
+#axisbird:hover .move-right{
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+    -o-transform: translate(350px,0); /** Opera **/
+    -moz-transform: translate(350px,0); /** Firefox **/
+}
+
+/*Keyframes for the sliding bird*/
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+/* The Boxes and Borders for the digipet images*/
+/*on the Purchase page*/
+/* The big box*/
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid #ff33cc;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+    /*box-shadow: 10px 10px 5px #ff33cc;*/
+}
+
+/* Smaller Box with image in*/
+div.img img {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #ff33cc;
+}
+
+/* Hovering over the box*/
+div.img a:hover img {
+    border:2px solid #990033;
+}
+
+/* Styling for the description of the images*/
+div.desc {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    color: #990033;
+    width: 150px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/*Input forms styling*/
+#container {
+    width:100%;
+    margin: auto;
+}
+
+/* Lines up the labels */
+form label {
+    display:inline-block;
+    width:150px;
+}
+
+/*Layout of the Contact Us PHP Form*/
+#contactusform {
+    display:inline-block;
+    width:350px;
+    position:relative;
+    left:20%;
+    top:30%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    font-weight:bold;
+    color: #990033;
+    text-shadow:3px 3px 3px #ff33cc;
+    text-align:left;
+}
+
+/*Footer at the end of my webpages*/
+#footer {
+    background-color:#990033;
+    color:#cfcfcf;
+    clear:both;
+    text-align:center;
+    padding:4px;
+    border-radius: 10px;
+    width:100%;
+    font-size:14px;
+    height:24px;
+}
+
+/* Styling for the Digipet page with the animated images*/
+/* Pet Image*/
+div.imagecenter {
+    margin: 5px;
+    padding: 5px;
+    border:none;
+    height: 300px;
+    width: 350px;
+    float: left;
+    text-align: center;
+    box-shadow:none;
+}
+
+/* Styling for description of the Pet Image*/
+div.textcenter {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    color: #990033;
+    font-weight: bold;
+    margin: 5px;
+}
+
+/*Styling for the Animated Image on the Contact Us Direct page*/
+div.imagecontactpge {
+    margin: 5px;
+    padding: 5px;
+    border:none;
+    height: 300px;
+    width: 350px;
+    float: right;
+    position: relative;
+    left:60%;
+    top:45%;
+}

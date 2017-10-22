@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Membership Form</title>
+
+<!--Google Fonts link-->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type="text/css">
+<!--Bootstrap link-->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<!--Bootstrap Font awesome link for social buttons in the footer-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--Contact Manager Stylesheet-->
+<link href="../style/contact_manager_style.css" rel="stylesheet" type="text/css">
+<script src="../javascript/contact_manager_script.js" type="text/javascript"></script> 
+
+<!--Logo image in the browser tab-->
+<link rel="icon" href="../images/booklogo1.png">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+        <!--The button menu which appears on small screen devices like mobile phones-->
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+ 
+            </button>
+            
+            <!--Navbar with space for a logo image-->
+            <a class= "navbar-brand" href= "index.html">
+                <img src="../images/booklogo.png" alt="The Book Store" width="80" height="80"></a>
+                	<ul class="nav navbar-nav navbar-left">
+                       <li><h1>The Book Club</h1></li>
+                    </ul>
+        </div>
+        
+			<!--Navbar with images and dropdown-->
+        	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            	<ul class="nav navbar-nav navbar-right">
+                		<li><a href="../html/index.html">Home</a></li>
+                        	<li><a href="../html/contact_manager_form.html">Membership Form</a></li>
+								<li><a href="#">Shopping</a></li>
+									<li><a href="#">Books</a></li>  
+
+            	</ul><!--Close the navbar right-->								
+        	</div>
+    	</div>
+</nav>
+    
+<br>
+
+<section class="container">
+	<div class="row">
+    	<article class="col-sm-12">
+        	<h4>Please complete the form below to sign up for our Membership Book Club</h4>
+                  	
+     	</article>
+   </div>
+</section>
+
+<br/><br/>
+<div class="container">
+	<div class="row">
+        
+        <div class="col-sm-12">
+            <form id= "membershipForm" method= "post" action= "#">
+                <fieldset>
+                
+                    <legend>Membership Form</legend>
+                    <br/> 
+                    <label for= "firstname">First Name</label><br/>
+                    <input type="name" id="formFN" size="40" placeholder="First name"/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <label for= "lastname">Last Name</label><br/>
+                    <input type="name" id="formLN" size="40" placeholder="Last name"/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <label for= "date">Date of Membership Payment</label><br/> 
+                    <input type="date" id="formPaydate" size="40" placeholder="Date of Payment"/> 
+<!--					<date-util format="dd/MM/yyyy" </date-util>-->
+<!--					<input type="date" id="formPaydate" size="40" placeholder="Date of Payment"/>-->
+                    <br/>
+                    <br/>
+                    <br/>
+                    <label for= "amount paid">Amount Paid</label><br/>    
+                    <input type="number" id="formAmtpaid" size="40" placeholder="Amount Paid"/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <label for= "membership_type">Please select which membership you would like</label><br>
+                    <select id="theSelect">
+                      <option value="individual">Individual</option>
+                      <option value="family">Family</option>
+                      <option value="pensioner">Pensioner</option>
+                      <option value="child">Child</option>
+                    </select>
+                    <br/>
+                    <br/>
+                    <br/>
+                   
+                </fieldset>    
+            </form>
+            
+            <button id="addToArray">Submit Member Details</button>
+			<button id="addToTable">Add Member to Table</button>
+            
+            <br>
+            <br>
+            <br>
+        </div>
+	</div>
+</div>
+
+<hr/>
+<section class="container">
+	<div class="row">
+    	<div class="col-sm-6">
+        	<h4>New Members Details</h4>      	
+     	</div>
+   </div>
+</section>
+	<br>
+
+<section class="container">
+	<div class="row"> 
+        <div class="col-sm-12">
+            <table id="TableHeadings">
+                <tr id="tableRow">
+                    <th id="Hfirstname"> First Name </th>
+                    <th id="Hlastname"> Last Name </th>
+                    <th id="Hpaydate"> Date of Payment </th>
+                    <th id="Hamtpaid"> Amount Paid </th>
+                    <th id="Htype"> Membership Type </th>
+					<th id="deleterow">Remove</th>
+            	</tr>           
+  			</table>
+			
+			<table id="newMemberTable">
+                <tr id="tableRow">
+            	</tr>           
+  			</table>
+			
+      </div>
+    </div>
+</section>	
+	
+<br/><br/>
+<br/><br/>
+    
+<hr/>
+
+<!--Footer-->
+
+<section class="container">
+	<div class="row">
+    	<article class="col-sm-12">
+           	<a class="btn btn-social-icon btn-twitter"><img src="../images/tw.png" alt="Twitter" width="50" height="50"/><span class="fa fa-twitter"></span> Twitter</a>
+            	<a class="btn btn-social-icon btn-facebook"><img src="../images/fb.png" alt="Facebook" width="48" height="48"/><span class="fa fa-facebook"></span> Facebook</a>
+            		<a class="btn btn-social-icon btn-google"><img src="../images/g+.png" alt="Google+" width="47" height="47"/><span class="fa fa-google"></span> Google+</a>
+     	</article>
+   </div>
+</section>
+
+<br>
+
+<footer class="container-fluid">
+	<div class="row">
+         <div class="col-sm-4">
+                <h4 class="indent">Site Map</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="../html/contact_manager_form.html">Membership Form</a></li>
+                            <li><a href="#">Online Shopping</a></li>
+                                <li><a href="#">All Books</a></li>
+                                    <li><a href="#">1916 Books</a></li>
+                                        <li><a href="#">Bestselling Books</a></li>  
+                                            <li><a href="#">Fiction Books</a></li>
+                                                <li><a href="#">Kids Books</a></li>
+                                                    <li><a href="#">Contact Details</a></li>
+                    </ul>    
+        	</div>
+            
+                <div class="col-sm-4"> 
+                   <h4>Contact Details</h4>
+                        <p>Dungarvan Shopping Centre, Dungarvan, Co Waterford</p>
+                            <p>Tel: 086 256 0609</p>
+                                <p><a href="#" target="_blank">Email: info@thebookshelf.ie</a></p>
+                                    <p><a href="#" target="_blank">Web: www.thebookshelf.ie</a></p>
+                </div> 
+                
+                	<div class="col-sm-4"> 
+                   		<h4>Sign Up to our Newsletter</h4>
+                        	<label for= "newsletter">Please tick if you wish to join our monthly newsletter</label><br>
+        					<input type="checkbox" id="newsletter" name="mailing list" value="yes"/> Yes<br><br>
+                            <label for= "email">Provide your Email Address to Register</label><br/>    
+            				<input type="email" name="email" id="email" size="40" placeholder="Email" required />
+                        
+                	</div>
+	</div>      
+</footer>
+
+<br><br>
+
+</body>
+</html>

@@ -1,0 +1,311 @@
+body {
+/*Spacing between the lines, neater and easier to read */
+    line-height: 2.0;
+/*Indenting the webpage */
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+body {
+  background-color: #FFCCF2;
+}
+
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 26pt;
+    color: #990033;
+    text-align:center ;
+    text-shadow: 5px 5px 5px #ff33cc;
+}
+
+h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18pt;
+    color: #990033;
+    text-shadow: 3px 3px 3px #ff33cc;
+    text-align:;
+}
+
+/*CSS3 Scrolling Text Animation*/
+h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14pt;
+    color: #990033;
+    text-shadow: 3px 3px 3px #ff33cc;
+    text-align:center;
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-iteration-count:;
+    animation-direction: alternate;
+}
+
+/*CSS3 Scrolling Text Animation*/
+h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14pt;
+    color: #990033;
+    text-shadow: 3px 3px 3px #ff33cc;
+    text-align:center;
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-iteration-count:;
+    animation-direction: alternate;
+}
+
+/*CSS3 Scrolling Text Animation*/
+h5 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    color: #990033;
+    text-shadow: none;
+    text-align:center;
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-iteration-count:;
+    animation-direction: alternate;
+}
+
+/*Keyframes for the animated cat*/
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+p {
+   font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    color: #990033;
+}
+
+a {
+   font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    color:#ff33cc ;
+}
+
+b {
+   font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    color: #990033;
+    font-weight: bold;
+}
+
+td {
+  vertical-align:top;
+}
+
+a:hover {
+/*When mouse hovers over link, change colour */
+  color: #990033;
+}
+
+#contactinfo {
+    height: auto;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#contactinfo ul {
+/*To Get rid of the bullet points */
+    text-decoration: none;
+}
+
+#contactinfo li {
+/*Contact details appear horizontically rather than vertically  */
+    display: inline;
+    padding: 0px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #990033;
+    text-decoration:none;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+}
+/*Menu Bar*/
+#menu {
+    width: 1150px;
+    background-color:#990033;
+    text-align: center;
+/*Gives navigation bar rounded edges */
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px #ff33cc;
+}
+
+#menu li {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    display:inline;
+}
+
+#menu a {
+/*Links in the menu bar */
+  text-decoration: none;
+  color:#cfcfcf ;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#menu a:hover {
+/*When mouse hovers over link, change colour */
+  color: #ff33cc;
+}
+
+#header {
+/*Where the logo and logotext is placed */
+  width: 1100px;
+  height: 100px;
+  float:center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:;
+  padding-bottom:;
+}
+
+#logo {
+/*Setting size and position of logo */
+  display: left;
+  height: 120px;
+  width:120px;
+  margin: auto;
+  width: auto;
+}
+
+#logotext {
+/*Setting size and position of the logo text*/
+  display: center;
+  height:70px;
+  margin: auto;
+  width: auto;
+}
+
+#main  {
+/* The main content of the page*/
+  padding-top: 1px; 
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left:auto;
+  margin-right: auto;
+  width: auto;
+}
+
+/*Positioning the Dog for animation*/
+.dog {
+    top: 20%;
+    left: 77%;
+}
+
+/*Spinning the Dog when mouse hovers over*/
+#axis:hover .rotate360ccw {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+}
+
+.object {
+    position: absolute;
+}
+
+/*Positioning the Cat for animation*/
+.cat {
+    top: 92%;
+    left: 48%;
+}
+
+/*Animating the cat to slide when mouse hovers over*/
+#axis:hover .move-right{
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+    -o-transform: translate(350px,0); /** Opera **/
+    -moz-transform: translate(350px,0); /** Firefox **/
+}
+
+.object {
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
+}
+
+/* Borders and boxes for the digipet images*/
+/* Main box*/
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid #ff33cc;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+    box-shadow: 10px 10px 5px #ff33cc;
+}
+
+/* Smaller Box with image in*/
+div.img img {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #ff33cc;
+}
+
+/* Hovering over the box*/
+div.img a:hover img {
+    border:2px solid #990033;
+}
+
+/* Description of image*/
+div.desc {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    color: #990033;
+    font-weight: bold;
+    width: 150px;
+    margin: 5px;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #990033;
+    font-weight: bold;
+}
+ 
+/*Input form container*/
+#container {
+    width:500px; 
+    margin:0 auto;
+}
+
+/* Lines up the labels */
+form label {
+    display:inline-block; 
+    width:150px;
+}
+
+/*Footer at the end of my pages*/
+#footer {
+    background-color:#990033;
+    color:#cfcfcf;
+    clear:both;
+    text-align:center;
+    padding:6px;
+    border-radius: 10px;
+    width: 1150px;  
+} 
