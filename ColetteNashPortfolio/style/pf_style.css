@@ -15,7 +15,6 @@ nav.navbar-default.navbar-fixed-top{
 	background-color:#00aacc;
 	text-align:center;
 	font-family: 'Montserrat', sans-serif;
-	/*padding-bottom: 1.5%;*/
 }
 
 nav.navbar-default.navbar-fixed-top a{
@@ -105,13 +104,16 @@ h3{
 main{
 	text-align:center;
 }
+
 section{
 	text-align:center;
 }
+
 #visual.container {
 	text-align:center;
 	/*margin-left:14%;*/
 }
+
 article{
 	padding-left: 20px;
 }
@@ -212,21 +214,21 @@ footer {
 	}
 }
 
-@media screen and (max-width: 1024px)
+/*@media screen and (max-width: 1024px)
 {
 	#code h2{
 		padding-top: -35%;
 		padding-bottom: 0;
 	}
-}
+}*/
 
-@media screen and (max-width: 1024px)
+/*@media screen and (max-width: 1024px)
 {
 	#visual h2{
 		padding-top: -35%;
 		padding-bottom: 0;
 	}
-}
+}*/
 
 @media screen and (max-width: 1024px)
 {
