@@ -58,7 +58,7 @@ h2{
 	color:#008099;
 	text-align: center;
 	margin-bottom: 2%;
-	margin-top: 5%;
+	margin-top: 8%;
 	font-family: 'Montserrat', sans-serif;
 }
 h3{
@@ -111,7 +111,6 @@ section{
 
 #visual.container {
 	text-align:center;
-	/*margin-left:14%;*/
 }
 
 article{
@@ -183,8 +182,24 @@ footer {
 	text-align: center;
 }
 
+ul li a.btn.btn-social-icon{
+	display:inline;
+	float: left;
+	margin-left: 25%;
+}
+
+
 /*----------------------------------------------------------------------------------------*/
 /*Media Queries Start Here*/
+@media screen and (max-width: 1024px)
+{
+	ul li a.btn.btn-social-icon{
+		display:inline;
+		float: left;
+		margin-left: 10%;
+		padding: 0;
+	}
+}
 @media screen and (max-width: 1024px)
 {
 	.image span {
@@ -192,14 +207,6 @@ footer {
 	}
 }
 
-@media screen and (max-width: 1024px)
-{
-	a.btn.btn-social-icon{
-		display:inline-block;
-		margin-bottom: -9%;
-		margin-top: -10%;
-	}
-}
 @media screen and (max-width: 1024px)
 {
 	h2 {
@@ -214,21 +221,13 @@ footer {
 	}
 }
 
-/*@media screen and (max-width: 1024px)
+@media screen and (max-width: 1024px)
 {
-	#code h2{
-		padding-top: -35%;
-		padding-bottom: 0;
+	form {
+			margin-left: 10%;
+			margin-right: 10%;
 	}
-}*/
-
-/*@media screen and (max-width: 1024px)
-{
-	#visual h2{
-		padding-top: -35%;
-		padding-bottom: 0;
-	}
-}*/
+}
 
 @media screen and (max-width: 1024px)
 {
