@@ -200,13 +200,13 @@ ul li a.btn.btn-social-icon{
 		padding: 0;
 	}
 }
+
 @media screen and (max-width: 1024px)
 {
 	.image span {
 		visibility: hidden;
 	}
 }
-
 
 @media screen and (max-width: 1024px)
 {
