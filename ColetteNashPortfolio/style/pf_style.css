@@ -4,7 +4,7 @@
 /*General Styling*/
 body{
 	background-image: url(images/bg.png);
-	background-color:#f3f4f4;
+	background-color: #eaeded;
 	position: relative;
 	margin-top:60px;
 	font-family: 'Montserrat', sans-serif;
@@ -12,7 +12,7 @@ body{
 
 /*Bootstraps nav bar*/
 nav.navbar-default.navbar-fixed-top{
-	background-color:#00aacc;
+	background-color: #00bae0;
 	text-align:center;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -27,7 +27,7 @@ nav.navbar-default.navbar-fixed-top a:hover{
 }
 
 .dropdown-menu{
-	background-color: #00aacc;
+	background-color: #00bae0;
 }
 
 /*Font Styling*/
