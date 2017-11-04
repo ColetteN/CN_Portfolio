@@ -157,7 +157,7 @@ input[type=email], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #00aacc;
+    background-color: #56bfdd;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -166,7 +166,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #80eaff;
+    background-color: #00aacc;
 }
 
 form {

@@ -9,6 +9,6 @@ $recipient = "colettenash.webdeveloper@gmail.com";
 $subject = "Portfolio Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank you! <br>I will reply to your enquiry shortly." . " " . "
-<a href='../index.html' style='../pf_style.css;'>Return to Portfolio</a>";
+echo "<br>Thank you for your enquiry! <br>I will send you a reply shortly .......
+<a href='../index.html' style='../style/pf_style.css;'>Return to Portfolio</a>";
 ?>
