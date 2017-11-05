@@ -3,8 +3,7 @@
 
 /*General Styling*/
 body{
-	background-image: url(images/bg.png);
-	background-color: #eaeded;
+	background-color: #f2f2f2;
 	position: relative;
 	margin-top:60px;
 	font-family: 'Montserrat', sans-serif;
@@ -58,7 +57,7 @@ h2{
 	color:#008099;
 	text-align: center;
 	margin-bottom: 2%;
-	margin-top: 8%;
+	/*margin-top: 2%;*/
 	font-family: 'Montserrat', sans-serif;
 }
 h3{
@@ -171,7 +170,7 @@ input[type=submit]:hover {
 
 form {
     border-radius: 5px;
-    background-color: #eaeded;
+    background-color: #f2f2f2;
     padding: 20px;
 		margin-left: 25%;
 		margin-right: 25%;
