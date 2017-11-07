@@ -133,7 +133,7 @@ article{
 	margin-right: 25%;
 }
 
-input[type=text], select, textarea {
+/*input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -166,14 +166,56 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #00aacc;
 }
-
-form {
+*/
+/*form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 		margin-left: 25%;
 		margin-right: 25%;
 		font-family: 'Montserrat', sans-serif;
+}*/
+
+#contact-area {
+	margin-left: 30%;
+	margin-right: 25%;
+
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 5px;
+	/*font-size: 1.4em;*/
+	margin: 0px 0px 10px 0px;
+	/*border: 2px solid #ccc;*/
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	/*border: 2px solid #900;*/
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	background-color: #56bfdd;
+}
+
+#contact-area input.submit-button:hover {
+    background-color: #00aacc;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	/*font-size: 1.4em;*/
 }
 
 footer {
