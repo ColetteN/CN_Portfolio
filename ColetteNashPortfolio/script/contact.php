@@ -71,9 +71,8 @@ $recipient = "colettenash.webdeveloper@gmail.com";
 $subject = "Portfolio Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "<br><br><br><br> <p>Thank you for your message! <br> I will be in touch shortly .......
-<a href="../index.html" class="btn btn-info" role="button">Back to Portfolio</a></p>
-
+echo "<br/><br/><br/><br/> <p>Thank you for your message! <br> I will be in touch shortly
+<br/><br/><a href="../index.html" class="btn btn-info" role="button">Back to Portfolio</a></p>
 
 <!--Footer--><hr>
 <div class="container">
