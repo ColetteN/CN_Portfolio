@@ -75,9 +75,11 @@ h3{
 .image{
   position: relative;
 	display: inline-block;
-  width: 45%;
+  width: 30%;
 	margin: 1%;
-	box-shadow: 25px 25px 50px 0 #cccccc inset,-25px -25px 50px 0 #cccccc inset;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	box-shadow: 25px 25px 50px 0 #ffffff inset,-25px -25px 50px 0 #ffffff inset;
 }
 
 .image span {
@@ -123,7 +125,7 @@ article{
 }
 
 #round{
-	border-radius: 50%;
+	border-radius: 0%;
 	margin-left: 35%;
 	margin-top: 2%;
 }
