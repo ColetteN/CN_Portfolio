@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "WalkCycle.data.unityweb",
+"asmCodeUrl": "WalkCycle.asm.code.unityweb",
+"asmMemoryUrl": "WalkCycle.asm.memory.unityweb",
+"asmFrameworkUrl": "WalkCycle.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

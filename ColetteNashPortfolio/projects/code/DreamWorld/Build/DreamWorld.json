@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "DreamWorld.data.unityweb",
+"asmCodeUrl": "DreamWorld.asm.code.unityweb",
+"asmMemoryUrl": "DreamWorld.asm.memory.unityweb",
+"asmFrameworkUrl": "DreamWorld.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
