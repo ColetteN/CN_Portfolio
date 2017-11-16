@@ -56,13 +56,16 @@ h1{
 h2{
 	color:#008099;
 	text-align: center;
-	/*margin-bottom: 2%;*/
+	margin-bottom: 5%;
+	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 }
 h3{
 	color:#008099;
+	font-weight: bold;
 	text-align: center;
-	margin-top: 5%;
+	margin-bottom: 3%;
+	margin-top: 10%;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -91,7 +94,8 @@ h3{
   height: 100%;
   width: 80%;
 	text-align: center;
-	color: #373737;
+	color: black;
+	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 }
@@ -135,10 +139,15 @@ article{
 	margin-right: 25%;
 }
 
+#right{
+	margin-left: 50%;
+	/*margin-right: 25%;*/
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #008099;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -148,7 +157,7 @@ input[type=text], select, textarea {
 input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #008099;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
