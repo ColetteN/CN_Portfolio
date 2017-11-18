@@ -17,7 +17,7 @@ nav.navbar-default.navbar-fixed-top{
 }
 
 nav.navbar-default.navbar-fixed-top a{
-	color:#cfcfcf;
+	color:#ffffff;
 	font-size:18px;
 }
 
@@ -34,7 +34,7 @@ nav.navbar-default.navbar-fixed-top a:hover{
 p{
 	font-size:16px;
 	text-align: justify;
-	color: #cfcfcf;
+	color: #ffffff;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -53,24 +53,32 @@ a:active, a:focus{
 }
 
 h1{
-	color:#cfcfcf;
+	color:#ffffff;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 }
 
 h2{
-	color:#cfcfcf;
+	color:#ffffff;
 	text-align: center;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 }
 h3{
-	color:#cfcfcf;
+	color:#ffffff;
 	font-weight: bold;
 	text-align: center;
 	/*margin-bottom: 3%;*/
-	margin-top: 5%;
+	margin-top: 10%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h4{
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10%;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -108,6 +116,16 @@ h3{
 .image span:hover{
 	opacity: 1;
 }
+
+.carousel-inner{
+	background-color: #cfcfcf;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 30%;
+      margin: auto;
+  }
 
 /*Specific Styling*/
 main{
@@ -209,6 +227,7 @@ footer {
 
 footer p {
 	text-align: center;
+	font-size: 12px;
 }
 
 ul li a.btn.btn-social-icon{
