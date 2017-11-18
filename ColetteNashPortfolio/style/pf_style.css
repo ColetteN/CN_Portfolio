@@ -3,7 +3,7 @@
 
 /*General Styling*/
 body{
-	background-color: #ffffff;
+	background-color:#000000;
 	position: relative;
 	margin-top:60px;
 	font-family: 'Montserrat', sans-serif;
@@ -11,7 +11,7 @@ body{
 
 /*Bootstraps nav bar*/
 nav.navbar-default.navbar-fixed-top{
-	background-color: #008099;
+	background-color: #000000;
 	text-align:center;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -22,23 +22,28 @@ nav.navbar-default.navbar-fixed-top a{
 }
 
 nav.navbar-default.navbar-fixed-top a:hover{
-	color: #373737;
+	color: #b3b3b3;
+	background-color: #404040;
 }
 
 .dropdown-menu{
-	background-color: #008099;
+	background-color: #404040;
 }
 
 /*Font Styling*/
 p{
 	font-size:16px;
 	text-align: center;
-	color: #373737;
+	color: #ffffff;
 	font-family: 'Montserrat', sans-serif;
 }
 
+a{
+	color: #b3b3b3;
+}
+
 a:hover{
-	color: #373737;
+	color: #404040;
 }
 
 a:active, a:focus{
@@ -48,24 +53,24 @@ a:active, a:focus{
 }
 
 h1{
-	color:#008099;
+	color:#ffffff;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 }
 
 h2{
-	color:#008099;
+	color:#ffffff;
 	text-align: center;
 	margin-bottom: 5%;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 }
 h3{
-	color:#008099;
+	color:#ffffff;
 	font-weight: bold;
 	text-align: center;
-	margin-bottom: 3%;
-	margin-top: 10%;
+	/*margin-bottom: 3%;*/
+	margin-top: 5%;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -82,7 +87,7 @@ h3{
 	margin: 1%;
 	margin-bottom: 1%;
 	margin-top: 1%;
-	box-shadow: 25px 25px 50px 0 #cfcfcf inset,-25px -25px 50px 0 #cfcfcf inset;
+	box-shadow: 25px 25px 50px 0 #000000 inset,-25px -25px 50px 0 #000000 inset;
 }
 
 .image span {
@@ -94,7 +99,7 @@ h3{
   height: 100%;
   width: 80%;
 	text-align: center;
-	color: black;
+	color: #ffffff;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
@@ -147,7 +152,7 @@ article{
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #008099;
+    border: 1px solid #000000;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -157,7 +162,7 @@ input[type=text], select, textarea {
 input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #008099;
+    border: 1px solid #000000;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -166,7 +171,7 @@ input[type=email], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #56bfdd;
+    background-color: #404040;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -175,7 +180,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #00aacc;
+    background-color: #b3b3b3;
 }
 
 form {
@@ -185,6 +190,7 @@ form {
 		margin-left: 25%;
 		margin-right: 25%;
 		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
 }
 
 label {
@@ -205,6 +211,7 @@ ul li a.btn.btn-social-icon{
 	float: left;
 	margin-left: 25%;
 }
+
 
 
 /*----------------------------------------------------------------------------------------*/
