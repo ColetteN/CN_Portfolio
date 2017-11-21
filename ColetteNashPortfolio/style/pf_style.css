@@ -234,8 +234,6 @@ ul li a.btn.btn-social-icon{
 {
 	p{
 		text-align: left;
-		/*margin-left: 10%;
-		margin-right: 10%;*/
 	}
 }
 
@@ -258,6 +256,7 @@ ul.nav.navbar-nav.navbar-left li h1{
 {
 	#center{
 	margin-top: 25%;
+	margin-left:-25%;
 }
 
 @media screen and (max-width: 1024px)
