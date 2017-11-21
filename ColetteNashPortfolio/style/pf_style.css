@@ -17,7 +17,7 @@ nav.navbar-default.navbar-fixed-top{
 }
 
 nav.navbar-default.navbar-fixed-top a{
-	color:#ffffff;
+	color:#f2f2f2;
 	font-size:18px;
 }
 
@@ -34,7 +34,7 @@ nav.navbar-default.navbar-fixed-top a:hover{
 p{
 	font-size:16px;
 	text-align: justify;
-	color: #ffffff;
+	color: #f2f2f2;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -53,32 +53,32 @@ a:active, a:focus{
 }
 
 h1{
-	color:#ffffff;
+	color:#f2f2f2;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 }
 
 h2{
-	color:#ffffff;
+	color:#f2f2f2;
 	text-align: center;
-	margin-bottom: 10%;
+	margin-top: 5%;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 }
 h3{
-	color:#ffffff;
+	color:#f2f2f2;
 	font-weight: bold;
 	text-align: center;
 	/*margin-bottom: 3%;*/
-	margin-top: 10%;
+	margin-top: 5%;
 	font-family: 'Montserrat', sans-serif;
 }
 
 h4{
-	color:#ffffff;
+	color:#f2f2f2;
 	font-weight: bold;
 	font-size: 20px;
-	margin-top: 10%;
+	margin-top: 5%;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -107,7 +107,7 @@ h4{
   height: 100%;
   width: 80%;
 	text-align: center;
-	color: #ffffff;
+	color: #f2f2f2;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
@@ -116,7 +116,7 @@ h4{
 .image span:hover{
 	opacity: 1;
 }
-
+/*
 .carousel-inner{
 	background-color: #cfcfcf;
 }
@@ -125,7 +125,7 @@ h4{
 .carousel-inner > .item > a > img {
       width: 30%;
       margin: auto;
-  }
+  }*/
 
 /*Specific Styling*/
 main{
