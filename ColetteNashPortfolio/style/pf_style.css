@@ -19,6 +19,10 @@ nav.navbar-default.navbar-fixed-top a{
 	color:#f2f2f2;
 	font-size:18px;
 }
+ul.nav.navbar-nav.navbar-left li h1{
+	font-size:24px;
+	color:#f2f2f2;
+}
 
 nav.navbar-default.navbar-fixed-top a:hover{
 	color: #b3b3b3;
@@ -226,6 +230,14 @@ ul li a.btn.btn-social-icon{
 	}
 }
 
+@media screen and (max-width: 1024px)
+{
+ul.nav.navbar-nav.navbar-left li h1{
+	font-size:18px;
+	color:#f2f2f2;
+	text-align: center;
+	}
+}
 @media screen and (max-width: 1024px)
 {
 	.image span {
