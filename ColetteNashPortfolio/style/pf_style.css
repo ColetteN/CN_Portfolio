@@ -73,6 +73,7 @@ h4{
 	color:#f2f2f2;
 	font-weight: bold;
 	font-size: 20px;
+	text-align: center;
 	margin-top: 5%;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -196,7 +197,6 @@ label {
 	margin-right: 15px;
 	width: 100px;
 	padding-top: 5px;
-	/*font-size: 1.4em;*/
 }
 
 
@@ -302,7 +302,6 @@ ul.nav.navbar-nav.navbar-left li h1{
 @media screen and (max-width: 800px)
 {
 	.image {
-		margin-right: 4%;
 		width:50%;
 	}
 
@@ -312,18 +311,49 @@ ul.nav.navbar-nav.navbar-left li h1{
 	}
 }
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 400px)
 {
-	h2 h3 {
+	h2 {
 		font-size: 16px;
+		margin-left: 15%;
+	}
+
+	h3 {
+		font-size: 16px;
+		margin-left: 15%;
 	}
 
 	h4 {
 		font-size: 14px;
+		margin-left: 2%;
 	}
 
 	p {
 		font-size: 12px;
+		margin-left: 20%;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
+	h2 {
+		font-size: 16px;
+		/*margin-left: 15%;*/
+	}
+
+	h3 {
+		font-size: 16px;
+		/*margin-left: 15%;*/
+	}
+
+	h4 {
+		font-size: 14px;
+		/*margin-left: 2%;*/
+	}
+
+	p {
+		font-size: 14px;
+		margin-left: 20%;
 	}
 }
 
@@ -331,7 +361,7 @@ ul.nav.navbar-nav.navbar-left li h1{
 {
 	#mobile {
 		font-size: 14px;
-		margin-left: 10%;
+		margin-left: 20%;
 		margin-right: 10%;
 	}
 }
