@@ -311,3 +311,14 @@ ul.nav.navbar-nav.navbar-left li h1{
 		padding-bottom:15%;
 	}
 }
+
+@media screen and (max-width: 800px)
+{
+	h2 h3 {
+		font-size: 16px;
+	}
+
+	p {
+		font-size: 12px;
+	}
+}
