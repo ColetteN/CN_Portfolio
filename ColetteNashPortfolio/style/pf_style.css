@@ -318,7 +318,20 @@ ul.nav.navbar-nav.navbar-left li h1{
 		font-size: 16px;
 	}
 
+	h4 {
+		font-size: 14px;
+	}
+
 	p {
 		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
+	#mobile {
+		font-size: 14px;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 }
