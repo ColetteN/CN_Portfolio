@@ -26,7 +26,7 @@ ul.nav.navbar-nav.navbar-left li h1{
 
 nav.navbar-default.navbar-fixed-top a:hover{
 	color: #b3b3b3;
-	background-color: #404040;
+	/*background-color: #404040;*/
 }
 
 .dropdown-menu{
